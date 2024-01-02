@@ -1,0 +1,182 @@
+{
+    "paks": [
+        {
+            "name": "pak128.ahakuoku",
+            "pakset_url": "http://pak128.jpn.org/souko/pak128.japan.120.0.cab",
+            "pakset_directory_name": "pak128.japan",
+            "operations": [
+                // システム
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://github.com/ahakuoku/AHNS_toolbar/releases/download/1.2.1/AHNS_toolbar_1.2.1.zip",
+                    "operations": [
+                        {"command": "remove_file", "path": "menu.BarTools.pak" },
+                        {"command": "remove_file", "path": "menu.ColorMenu.pak" },
+                        {"command": "remove_file", "path": "menu.DialogeTools.pak" },
+                        {"command": "remove_file", "path": "menu.EditTools.pak" },
+                        {"command": "remove_file", "path": "menu.GeneralTools.pak" },
+                        {"command": "remove_file", "path": "menu.ListTools.pak" },
+                        {"command": "remove_file", "path": "menu.MainMenu.pak" },
+                        {"command": "remove_file", "path": "menu.RailTools.pak" },
+                        {"command": "remove_file", "path": "menu.RoadTools.pak" },
+                        {"command": "remove_file", "path": "menu.ShipTools.pak" },
+                        {"command": "remove_file", "path": "menu.SimpleTools.pak" },
+                        {"command": "remove_file", "path": "menu.SlopeTools.pak" },
+                        {"command": "remove_file", "path": "menu.SpecialTools.pak" },
+                        {"command": "remove_file", "path": "menu.WindowSkin.pak" },
+                        {"command": "copy_file", "source_path": "pak/menu.BarTools.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "pak/menu.DialogeTools.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "pak/menu.GeneralTools.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "pak/menu.SimpleTools.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "pak/config/menuconf.tab", "destination": "config/" }
+                    ]
+                },
+                // ここにtabファイルを追加
+                // 土地
+                {"command": "remove_file", "path": "ground.Water.pak"},
+                {"command": "remove_file", "path": "ground.ClimateTexture.pak"},
+                {"command": "remove_file", "path": "ground.Slopes.pak"},
+                {"command": "remove_file", "path": "ground.Fence.pak"},
+                {"command": "remove_file", "path": "ground.Basement.pak"},
+                {"command": "remove_file", "path": "tree.palm010.pak"},
+                {"command": "remove_file", "path": "tree.palm011.pak"},
+                {"command": "remove_file", "path": "tree.tree020.pak"},
+                {"command": "remove_file", "path": "tree.tree022.pak"},
+                {"command": "remove_file", "path": "tree.tree023.pak"},
+                {"command": "remove_file", "path": "tree.tree025.pak"},
+                {"command": "remove_file", "path": "tree.tree030.pak"},
+                {"command": "remove_file", "path": "tree.tree031.pak"},
+                {"command": "remove_file", "path": "tree.tree041.pak"},
+                {"command": "remove_file", "path": "tree.tree042.pak"},
+                {"command": "remove_file", "path": "tree.tree050.pak"},
+                {"command": "remove_file", "path": "tree.tree060.pak"},
+                {"command": "remove_file", "path": "tree.tree061.pak"},
+                {"command": "remove_file", "path": "tree.tree062.pak"},
+                {"command": "remove_file", "path": "tree.tree063.pak"},
+                {"command": "remove_file", "path": "tree.tree070.pak"},
+                {"command": "remove_file", "path": "tree.tree071.pak"},
+                {"command": "remove_file", "path": "tree.tree072.pak"},
+                {"command": "remove_file", "path": "tree.tree080.pak"},
+                {"command": "remove_file", "path": "tree.tree081.pak"},
+                {"command": "remove_file", "path": "tree.tree082.pak"},
+                {"command": "remove_file", "path": "tree.tree083.pak"},
+                {"command": "remove_file", "path": "tree.tree090.pak"},
+                {"command": "remove_file", "path": "tree.tree091.pak"},
+                {"command": "remove_file", "path": "tree.tree100.pak"},
+                {"command": "remove_file", "path": "tree.tree110.pak"},
+                {"command": "remove_file", "path": "tree.tree120.pak"},
+                {"command": "remove_file", "path": "tree.tree121.pak"},
+                {"command": "remove_file", "path": "tree.tree122.pak"},
+                {"command": "remove_file", "path": "tree.tree130.pak"},
+                {"command": "remove_file", "path": "tree.tree131.pak"},
+                {"command": "remove_file", "path": "tree.tree132.pak"},
+                {"command": "remove_file", "path": "tree.tree133.pak"},
+                {"command": "remove_file", "path": "tree.tree140.pak"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/softshadow-generic-trees/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/%E3%83%99%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%A4%89%E6%9B%B4%E3%82%BB%E3%83%83%E3%83%88/download"},
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/chihyou-v1.zip"},
+                // 役場
+                {"command": "remove_file", "path": "building.01_CITY.pak"},
+                {"command": "remove_file", "path": "building.06_CITY.pak"},
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/yakuba-set01.zip"},
+                {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_cityhall.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/11/saitama_h_municipial_office.zip"},
+                // 建物
+                // 日wikiとポータルしか見てない
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=Japanese_urban_buildings.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings02&openfile=JPN_Temples.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings02&openfile=skyscrapers_OD.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings02&openfile=skyscrapers_SJ_a.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings03&openfile=skyscrapers_SD.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings03&openfile=skyscrapers_SJ2.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings03&openfile=skyscrapers_SY.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings03&openfile=skyscrapers_RA.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings03&openfile=skyscrapers_MM.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings03&openfile=skyscrapers_HS.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings03&openfile=skyscrapers_city.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=skyscrapers_BS.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=skyscrapers_MK.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=Local_Bank_Head_Office.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=Prefectural_Government_Office_Building.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=Ryk_lighthouse.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=LargeFerrisWheel.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=hanabusa_hatake.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings05&openfile=hanabusa_tower-block_2.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings05&openfile=ConvenienceStore_everyone_3.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=hanabusa_hatake.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings03&openfile=town_buildings_set.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings02&openfile=departmentstores_set.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings02&openfile=suburbanstores.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings02&openfile=sc3k_buildings_3.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings01&openfile=ssaws.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=Japanese_urban_buildings.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=agri.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=3Dbuilding_Arab%20128.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=kbg2.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=CCCP-danti_set.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=JHSDF_Akiba_01.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=JHSDF_akiba_02.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=JHSDF_cupsuletower.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=Metro_building.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=manseibashi.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=kbg_bldg.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=%A5%A2%A5%C9%A5%AA%A5%F3%2F%B7%FA%CA%AA5&openfile=3Dbuilding_V2.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_01.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_02.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_03.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_04.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_05.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_06.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_07.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_08.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/3dbuildingv2-exp-shi/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/pak128-japanese-combuilding-ver2/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/japanese-mansion-set-shi/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/sks_voxel_building/download"},
+                {"command": "extract_all_pak_files", "url": "https://github.com/kasu-me/Simutrans-3d-Buildings-Roadside/archive/refs/tags/v.1.1.0.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/11/Cho-Rapid_3D_building_2022-11-4.zip"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/pak128-japanese-supermarket-ver1/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/pachinko-pak128-shi/download"},
+                {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_765prolivetheater.zip"},
+                {"command": "copy_file", "source_path": "https://simutrans-portal.128-bit.net/articles/mk_bldg_1_128/download", "destination": "" },
+                {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_bldg.zip"},
+                // 歩行者
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=j_pedestrian_ver3.zip"},
+                // 車両-鉄道-国鉄/JR
+                // 車両-鉄道-大手私鉄
+                // 車両-鉄道-地下鉄
+                {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_metro.zip"},
+                // 車両-鉄道-中小私鉄/第三セクター-北海道
+                // 車両-鉄道-中小私鉄/第三セクター-東北
+                // 車両-鉄道-中小私鉄/第三セクター-関東
+                // 車両-鉄道-中小私鉄/第三セクター-中部
+                // 車両-鉄道-中小私鉄/第三セクター-関西
+                // 車両-鉄道-中小私鉄/第三セクター-中国/四国
+                // 車両-鉄道-中小私鉄/第三セクター-九州
+                // 車両-モノレール
+                // 車両-リニア
+                // 車両-市電
+                // 車両-ナロー
+                // 車両-道路-citycar
+                // 車両-道路-バス
+                // 車両-道路-トラック
+                // 車両-船舶
+                // 車両-航空
+                // インフラ-鉄道
+                // インフラ-モノレール
+                // インフラ-リニア
+                // インフラ-市電
+                // インフラ-ナロー
+                // インフラ-道路
+                // インフラ-船舶
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/sks_port/download"}
+                // インフラ-航空
+            ]
+        }
+    ]
+}
