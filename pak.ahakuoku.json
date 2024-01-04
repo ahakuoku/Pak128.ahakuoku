@@ -5,7 +5,6 @@
             "pakset_url": "http://pak128.jpn.org/souko/pak128.japan.120.0.cab",
             "pakset_directory_name": "pak128.japan",
             "operations": [
-                // システム
                 {
                     "command": "custom_operations_with_downloaded_file", 
                     "url": "https://github.com/ahakuoku/AHNS_toolbar/releases/download/1.2.1/AHNS_toolbar_1.2.1.zip",
@@ -31,8 +30,6 @@
                         {"command": "copy_file", "source_path": "pak/config/menuconf.tab", "destination": "config/" }
                     ]
                 },
-                // ここにtabファイルを追加
-                // 土地
                 {"command": "remove_file", "path": "ground.Water.pak"},
                 {"command": "remove_file", "path": "ground.ClimateTexture.pak"},
                 {"command": "remove_file", "path": "ground.Slopes.pak"},
@@ -75,14 +72,11 @@
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/softshadow-generic-trees/download"},
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/%E3%83%99%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%A4%89%E6%9B%B4%E3%82%BB%E3%83%83%E3%83%88/download"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/chihyou-v1.zip"},
-                // 建物-役場
                 {"command": "remove_file", "path": "building.01_CITY.pak"},
                 {"command": "remove_file", "path": "building.06_CITY.pak"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/yakuba-set01.zip"},
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_cityhall.zip"},
                 {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/11/saitama_h_municipial_office.zip"},
-                // 建物-市内建築物/ランドマーク
-                // 日wikiとポータルしか見てない
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings04&openfile=Japanese_urban_buildings.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings02&openfile=JPN_Temples.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FBuildings02&openfile=skyscrapers_OD.zip"},
@@ -183,40 +177,9 @@
                         {"command": "copy_file", "source_path": "PAK128.german/building.COM_ALL_2010_A_32.pak", "destination": "" }
                     ]
                 },
-                // 建物-産業
-                // 歩行者
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=j_pedestrian_ver3.zip"},
-                // 車両-鉄道-国鉄/JR
-                // 車両-鉄道-大手私鉄
-                // 車両-鉄道-地下鉄
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_metro.zip"},
-                // 車両-鉄道-中小私鉄/第三セクター-北海道
-                // 車両-鉄道-中小私鉄/第三セクター-東北
-                // 車両-鉄道-中小私鉄/第三セクター-関東
-                // 車両-鉄道-中小私鉄/第三セクター-中部
-                // 車両-鉄道-中小私鉄/第三セクター-関西
-                // 車両-鉄道-中小私鉄/第三セクター-中国/四国
-                // 車両-鉄道-中小私鉄/第三セクター-九州
-                // 車両-モノレール
-                // 車両-リニア
-                // 車両-市電
-                // 車両-ナロー
-                // 車両-道路-citycar
-                // 車両-道路-バス
-                // 車両-道路-トラック
-                // 車両-船舶
-                // 車両-航空
-                // インフラ-複合
-                // インフラ-鉄道
-                // インフラ-モノレール
-                // インフラ-リニア
-                // インフラ-市電
-                // インフラ-ナロー
-                // インフラ-道路
-                // インフラ-船舶
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/sks_port/download"}
-                // インフラ-航空
-                // その他
             ]
         }
     ]
