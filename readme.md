@@ -1,9 +1,8 @@
 # Pak128.ahakuokuとは？
 ahakuokuが厳選したアドオンをまとめたPaksetを目指し開発中のPaksetです。  
-配布予定のファイルはひめし氏が開発する[Simutrans Pak Manager](https://github.com/teamhimeh/SimutransPakManager)用のダウンロード定義ファイルで、アドオンそのものではありません（=**アドオンの無断転載ではありません**）。
+配布しているファイルはひめし氏が開発する[Simutrans Pak Manager](https://github.com/teamhimeh/SimutransPakManager)用のダウンロード定義ファイルで、アドオンそのものではありません（=**アドオンの無断転載ではありません**）。
 
 # 導入方法
-※現在配布の準備中です。ダウンロードはできません。
 1. [Releaseページから](https://github.com/ahakuoku/Pak128.ahakuoku/releases)ダウンロード定義ファイルをダウンロードする
 2. [Simutrans Pak Manager](https://github.com/teamhimeh/SimutransPakManager)の実行ファイル（執筆時点で準備中）をダウンロードする
 3. Simutrans Pak Managerを起動し、ダウンロードしたダウンロード定義ファイルを選択する
