@@ -99,7 +99,7 @@
                 {"command": "remove_file", "path": "building.RES_31_90.pak"},
                 {"command": "remove_file", "path": "building.RES_32_01.pak"},
                 {"command": "remove_file", "path": "building.RES_32_02.pak"},
-                {"command": "remove_file", "path": "building.RES_hru01_06.pak"},
+                {"command": "remove_file", "path": "building.res.hru01.pak"},
                 {"command": "remove_file", "path": "building.COM_31_03.pak"},
                 {"command": "remove_file", "path": "building.COM_31_62.pak"},
                 {"command": "remove_file", "path": "building.COM_31_85.pak"},
