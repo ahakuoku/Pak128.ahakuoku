@@ -78,6 +78,7 @@
                 // 建物-役場
                 {"command": "remove_file", "path": "building.01_CITY.pak"},
                 {"command": "remove_file", "path": "building.06_CITY.pak"},
+                {"command": "remove_file", "path": "building.yakusho01.pak"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/yakuba-set01.zip"},
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_cityhall.zip"},
                 {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/11/saitama_h_municipial_office.zip"},
@@ -146,7 +147,6 @@
                 {"command": "copy_file", "source_path": "https://simutrans-portal.128-bit.net/articles/mk_bldg_1_128/download", "destination": "" },
 
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_bldg.zip"},
-                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=%A5%A2%A5%C9%A5%AA%A5%F3%2F%B7%FA%CA%AA5&openfile=3Dbuilding_V2.zip"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
                     "url": "https://pak128-german.de/PAK128.german_2.0_for_ST_122.0.zip",
