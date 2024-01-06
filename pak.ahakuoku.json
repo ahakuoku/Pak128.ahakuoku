@@ -176,7 +176,7 @@
                 {"command": "copy_file", "source_path": "https://simutrans-portal.128-bit.net/articles/mk_bldg_1_128/download", "destination": "" },
 
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_bldg.zip"},
-                {"command": "extract_all_pak_files", "url": "http://wikiwiki.jp/twitrans/?plugin=attach&pcmd=open&file=keishicho.zip"},
+                {"command": "extract_all_pak_files", "url": "http://wikiwiki.jp/twitrans/?plugin=attach&pcmd=open&file=keishicho.zip&refer=addon%2Fpak128%2Fbuilding4"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
                     "url": "https://pak128-german.de/PAK128.german_2.0_for_ST_122.0.zip",
