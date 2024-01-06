@@ -82,8 +82,9 @@
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/yakuba-set01.zip"},
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_cityhall.zip"},
                 {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/11/saitama_h_municipial_office.zip"},
+                // 建物-本社
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/hq-set01.zip"},
                 // 建物-市内建築物/ランドマーク
-                // 日wikiとポータルしか見てない
                 {"command": "remove_file", "path": "building.jp.Apartment Small_1.pak"},
                 {"command": "remove_file", "path": "building.jp.Apartment Mid_1.pak"},
                 {"command": "remove_file", "path": "building.jp.Apartment Mid_2.pak"},
@@ -212,7 +213,28 @@
                         {"command": "copy_file", "source_path": "simutrans/PAK128.german/building.COM_ALL_2010_A_32.pak", "destination": "" }
                     ]
                 },
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/gunjinkaikan.zip"},
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/oomiwa.zip"},
                 // 建物-産業
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=JHSDF_factory_202004_pak.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=IndustrialChain.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=factory_newspaper.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=JHSDF_market.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=SKS_rinkou%20ver.2.zip"},
+                {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/Other3/::attach/128jpPostSetV092.zip?rev=0724fe88637fb80dbd09278b5bed56cf&t=20160317105129"},
+                {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_sushishop.zip"},
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/insatsu-koujou.zip"},
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/gyokyo.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "http://gobanboshi.s25.xrea.com/simutrans/daiei.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "ダイエー/+陶磁器産業版/factory.supermarket.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/senju-hatsuden.zip"},
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/syuppansya.zip"},
+                {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/bento-factory.zip"},
                 // 歩行者
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=j_pedestrian_ver3.zip"},
                 // 車両-鉄道-国鉄/JR
