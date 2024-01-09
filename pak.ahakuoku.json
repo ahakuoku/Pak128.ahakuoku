@@ -215,6 +215,8 @@
                 },
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/gunjinkaikan.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/oomiwa.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/90"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/RykSeb/download/16"},
                 // 建物-産業
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=JHSDF_factory_202004_pak.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=IndustrialChain.zip"},
