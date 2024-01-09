@@ -225,13 +225,13 @@
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_sushishop.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/insatsu-koujou.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/gyokyo.zip"},
-                {
-                    "command": "custom_operations_with_downloaded_file", 
-                    "url": "http://gobanboshi.s25.xrea.com/simutrans/daiei.zip",
-                    "operations": [
-                        {"command": "copy_file", "source_path": "ダイエー/+陶磁器産業版/factory.supermarket.pak", "destination": "" }
-                    ]
-                },
+                // {
+                //     "command": "custom_operations_with_downloaded_file", 
+                //     "url": "http://gobanboshi.s25.xrea.com/simutrans/daiei.zip",
+                //     "operations": [
+                //         {"command": "copy_file", "source_path": "ダイエー/+陶磁器産業版/factory.supermarket.pak", "destination": "" }
+                //     ]
+                // },
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/senju-hatsuden.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/syuppansya.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/bento-factory.zip"},
