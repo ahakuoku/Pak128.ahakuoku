@@ -331,6 +331,40 @@
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/78"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=NimotsuPC2.zip"},
                 // 車両-鉄道-国鉄/JR-貨車
+                {"command": "remove_file", "path": "vehicle.yoshi_koki000104.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_koki000106.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_koki050000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_re002900.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_re005000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_resa005000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_resa010000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_tamu000100.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_toki000900.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_tora006000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_tora006000wc.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_tora035000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_tora090000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_waki00c800.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_waki005000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_waki008000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_waki009000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_waki010000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_wamu00s700.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_wamu000001.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_wamu003500.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_wamu023000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_wamu080000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_wamu090000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_wamu480000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_wamu580000.pak"},
+                {"command": "remove_file", "path": "vehicle.Lus_otese009500.pak"},
+                {"command": "remove_file", "path": "vehicle.Lus_otese010500.pak"},
+                {"command": "remove_file", "path": "vehicle.Lus_seki001000.pak"},
+                {"command": "remove_file", "path": "vehicle.Lus_seki003000.pak"},
+                {"command": "remove_file", "path": "vehicle.Lus_seki003000_late.pak"},
+                {"command": "remove_file", "path": "vehicle.Lus_seki006000.pak"},
+                {"command": "remove_file", "path": "vehicle.Lus_seki008000.pak"},
+                {"command": "remove_file", "path": "vehicle.Lus_yo005000.pak"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
                     "url": "https://simutrans-portal.128-bit.net/articles/%E5%9B%BD%E9%89%84%E3%82%B3%E3%83%A01%E5%BD%A2%E8%B2%A8%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88",
@@ -366,6 +400,7 @@
                 // 車両-鉄道-国鉄/JR-電車-近郊型
                 // 車両-鉄道-国鉄/JR-電車-急行型
                 // 車両-鉄道-国鉄/JR-電車-特急型
+                // 車両-鉄道-国鉄/JR-電車-新幹線
                 // 車両-鉄道-国鉄/JR-気動車-複合
                 // 車両-鉄道-国鉄/JR-気動車-一般/急行型
                 // 車両-鉄道-国鉄/JR-気動車-特急型
