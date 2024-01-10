@@ -223,6 +223,7 @@
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/senju-hatsuden.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/syuppansya.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/bento-factory.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/twitrans_works/download/343"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=j_pedestrian_ver3.zip"},
                 {"command": "remove_file", "path": "vehicle.Nabe_SL_2100.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_c61.pak"},
