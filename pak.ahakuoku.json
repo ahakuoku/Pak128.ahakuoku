@@ -329,7 +329,36 @@
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/%E5%9B%BD%E9%89%84%E6%97%A7%E5%9E%8B%E5%92%8C%E5%BC%8F%E5%AE%A2%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88/download"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/76"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/78"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=NimotsuPC2.zip"},
                 // 車両-鉄道-国鉄/JR-貨車
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://simutrans-portal.128-bit.net/articles/%E5%9B%BD%E9%89%84%E3%82%B3%E3%83%A01%E5%BD%A2%E8%B2%A8%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "SKS_Komu1 ver.1/SKS_JR_komu1.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=koki10000.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=koki50000.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "koki50000/拡張版/OBK_JNR_koki50000_1.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "koki50000/拡張版/OBK_JNR_koki50000_2.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=JRFkoki.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=WLMNTankVol.1.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "化学工業産業用タンク車セット Vol.1/新産業版/vehicle.WLMN_JNR_tasa4100.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "化学工業産業用タンク車セット Vol.1/新産業版/vehicle.WLMN_JGR_tamu5000.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "化学工業産業用タンク車セット Vol.1/新産業版/vehicle.WLMN_JGR_taki300.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=senka_v09.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=JNRFCSet.zip"},
                 // 車両-鉄道-国鉄/JR-電車/気動車複合
                 // 車両-鉄道-国鉄/JR-電車-複合
                 // 車両-鉄道-国鉄/JR-電車-旧型
