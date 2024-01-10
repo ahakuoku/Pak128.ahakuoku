@@ -326,11 +326,12 @@
                 // インフラ-ナロー
                 // インフラ-道路
                 // インフラ-船舶
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/sks_port/download"}
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/sks_port/download"},
                 // インフラ-航空
                 // 景観物-箱積み
                 // 景観物-その他
                 // その他
+                {"command": "remove_file", "path": "ground_obj.kumo.pak"}
             ]
         }
     ]
