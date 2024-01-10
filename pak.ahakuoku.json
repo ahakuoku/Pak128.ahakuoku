@@ -373,24 +373,13 @@
                     ]
                 },
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=koki10000.zip"},
-                {
-                    "command": "custom_operations_with_downloaded_file", 
-                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=koki50000.zip",
-                    "operations": [
-                        {"command": "copy_file", "source_path": "koki50000/拡張版/OBK_JNR_koki50000_1.pak", "destination": "" },
-                        {"command": "copy_file", "source_path": "koki50000/拡張版/OBK_JNR_koki50000_2.pak", "destination": "" }
-                    ]
-                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=koki50000.zip"},
+                {"command": "remove_file", "path": "OBK_JNR_koki50000_basic.pak"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=JRFkoki.zip"},
-                {
-                    "command": "custom_operations_with_downloaded_file", 
-                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=WLMNTankVol.1.zip",
-                    "operations": [
-                        {"command": "copy_file", "source_path": "化学工業産業用タンク車セット Vol.1/新産業版/vehicle.WLMN_JNR_tasa4100.pak", "destination": "" },
-                        {"command": "copy_file", "source_path": "化学工業産業用タンク車セット Vol.1/新産業版/vehicle.WLMN_JGR_tamu5000.pak", "destination": "" },
-                        {"command": "copy_file", "source_path": "化学工業産業用タンク車セット Vol.1/新産業版/vehicle.WLMN_JGR_taki300.pak", "destination": "" }
-                    ]
-                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=WLMNTankVol.1.zip"},
+                {"command": "remove_file", "path": "vehicle.WLMN_JNR_tasa4100E.pak"},
+                {"command": "remove_file", "path": "vehicle.WLMN_JGR_tamu5000E.pak"},
+                {"command": "remove_file", "path": "vehicle.WLMN_JGR_taki300E.pak"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=senka_v09.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=JNRFCSet.zip"},
                 // 車両-鉄道-国鉄/JR-電車/気動車複合
