@@ -220,13 +220,6 @@
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_sushishop.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/insatsu-koujou.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/gyokyo.zip"},
-                {
-                    "command": "custom_operations_with_downloaded_file", 
-                    "url": "http://gobanboshi.s25.xrea.com/simutrans/daiei.zip",
-                    "operations": [
-                        {"command": "copy_file", "source_path": "ダイエー/%2B陶磁器産業版/factory.supermarket.pak", "destination": "" }
-                    ]
-                },
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/senju-hatsuden.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/syuppansya.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/bento-factory.zip"},
@@ -292,7 +285,7 @@
                     "command": "custom_operations_with_downloaded_file", 
                     "url": "https://simutrans-portal.128-bit.net/articles/sks_pc10_seat/download",
                     "operations": [
-                        {"command": "copy_file", "source_path": "SKS_JNR_PC10%E3%80%80ver.1.1/SKS_JNR_PC10.pak", "destination": "" }
+                        {"command": "copy_file", "source_path": "SKS_JNR_PC10　ver.1.1/SKS_JNR_PC10.pak", "destination": "" }
                     ]
                 },
                 {
