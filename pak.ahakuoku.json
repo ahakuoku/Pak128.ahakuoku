@@ -388,6 +388,7 @@
                 {"command": "remove_file", "path": "vehicle.WLMN_JGR_taki300E.pak"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=senka_v09.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=JNRFCSet.zip"},
+                {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train17/::attach/taki1000.zip?rev=f673e4bdbeb11720978f007b03a8ef26&t=20160427105712"},
                 // 車両-鉄道-国鉄/JR-電車/気動車複合
                 // 車両-鉄道-国鉄/JR-電車-複合
                 // 車両-鉄道-国鉄/JR-電車-旧型
