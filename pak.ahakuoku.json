@@ -288,6 +288,47 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%A1%B4%D8%BC%D6&openfile=DF200.zip"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/26"},
                 // 車両-鉄道-国鉄/JR-客車
+                {"command": "remove_file", "path": "vehicle.yoshi_suha32.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_suha43.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_suha43_a.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_suha44.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_suni40.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_oha12.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_oha12_1000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_oha14.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_oha50.pak"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=aodaisho.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC20.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC14_24.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://simutrans-portal.128-bit.net/articles/sks_pc10_seat/download",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "SKS_JNR_PC10　ver.1.1/SKS_JNR_PC10.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC10_2.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_ohane12_late_m.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_ohane12_late_u.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_ohanefu12_late_m.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_ohanefu12_late_u.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_orone10_late_m.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_orone10_late_u.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_oyu10.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_suhane16_late_m.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_suhane16_late_u.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_suro62.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC10_plus.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=JGR_WoodenPC.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=JNR_OldPC.zip"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/%E5%9B%BD%E9%89%84%E6%97%A7%E5%9E%8B%E5%92%8C%E5%BC%8F%E5%AE%A2%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/76"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/78"},
                 // 車両-鉄道-国鉄/JR-貨車
                 // 車両-鉄道-国鉄/JR-電車/気動車複合
                 // 車両-鉄道-国鉄/JR-電車-複合
