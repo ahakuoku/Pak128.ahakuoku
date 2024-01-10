@@ -283,8 +283,14 @@
                         {"command": "copy_file", "source_path": "SKS_DE10 ver.1/SKS_JNR_DE10_1000.pak", "destination": "" }
                     ]
                 },
-                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTrain%201&openfile=JNR_DF50.zip"},
-                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTrain%201&openfile=JNR_DD54.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train22/::attach/DF50.zip?rev=2536c4184da33b6286ad84fc918ec5c9&t=20160406100934",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "DF50/vehicle.OBK_JNR_DF50_0.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "DF50/vehicle.OBK_JNR_DF50_500.pak", "destination": "" }
+                    ]
+                },
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%A1%B4%D8%BC%D6&openfile=DF200.zip"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/26"},
                 // 車両-鉄道-国鉄/JR-客車
