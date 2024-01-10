@@ -240,7 +240,8 @@
                 // 歩行者
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=j_pedestrian_ver3.zip"},
                 // 車両-鉄道-国鉄/JR
-                // 車両-鉄道-大手私鉄
+                // 車両-鉄道-大手私鉄-東日本
+                // 車両-鉄道-大手私鉄-西日本
                 // 車両-鉄道-地下鉄
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_metro.zip"},
                 // 車両-鉄道-中小私鉄/第三セクター-北海道
