@@ -363,7 +363,6 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=senka_v09.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=JNRFCSet.zip"},
                 {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train17/::attach/taki1000.zip?rev=f673e4bdbeb11720978f007b03a8ef26&t=20160427105712"},
-                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/twitrans_works/download/343"},
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_metro.zip"},
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/sks_port/download"},
                 {"command": "remove_file", "path": "ground_obj.kumo.pak"}
