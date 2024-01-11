@@ -344,6 +344,7 @@
                 {"command": "remove_file", "path": "vehicle.Lus_seki006000.pak"},
                 {"command": "remove_file", "path": "vehicle.Lus_seki008000.pak"},
                 {"command": "remove_file", "path": "vehicle.Lus_yo005000.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_waki050000.pak"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
                     "url": "https://simutrans-portal.128-bit.net/articles/%E5%9B%BD%E9%89%84%E3%82%B3%E3%83%A01%E5%BD%A2%E8%B2%A8%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88/download",
