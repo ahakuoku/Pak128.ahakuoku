@@ -227,17 +227,17 @@
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_sushishop.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/insatsu-koujou.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/gyokyo.zip"},
-                // {
-                //     "command": "custom_operations_with_downloaded_file", 
-                //     "url": "http://gobanboshi.s25.xrea.com/simutrans/daiei.zip",
-                //     "operations": [
-                //         {"command": "copy_file", "source_path": "ダイエー/+陶磁器産業版/factory.supermarket.pak", "destination": "" }
-                //     ]
-                // },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "http://gobanboshi.s25.xrea.com/simutrans/daiei.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "ダイエー/+陶磁器産業版/factory.supermarket.pak", "destination": "" }
+                    ]
+                },
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/senju-hatsuden.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/syuppansya.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/bento-factory.zip"},
-                // {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/twitrans_works/download/343"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/twitrans_works/download/343"},
                 // 歩行者
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=j_pedestrian_ver3.zip"},
                 // 車両-鉄道-複合
@@ -330,13 +330,13 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=aodaisho.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC20.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC14_24.zip"},
-                // {
-                //     "command": "custom_operations_with_downloaded_file", 
-                //     "url": "https://simutrans-portal.128-bit.net/articles/1225/download",
-                //     "operations": [
-                //         {"command": "copy_file", "source_path": "SKS_JNR_PC10　ver.1.1/SKS_JNR_PC10.pak", "destination": "" }
-                //     ]
-                // },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://simutrans-portal.128-bit.net/articles/1225/download",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "SKS_JNR_PC10　ver.1.1/SKS_JNR_PC10.pak", "destination": "" }
+                    ]
+                },
                 {
                     "command": "custom_operations_with_downloaded_file", 
                     "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC10_2.zip",
@@ -416,7 +416,7 @@
                 {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train17/::attach/taki1000.zip?rev=f673e4bdbeb11720978f007b03a8ef26&t=20160427105712"},
                 // 車両-鉄道-国鉄/JR-電車/気動車複合
                 // 車両-鉄道-国鉄/JR-電車-複合
-                // {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1251/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1251/download"},
                 // 車両-鉄道-国鉄/JR-電車-旧型
                 {"command": "remove_file", "path": "vehicle.Nabe_Deha6280.pak"},
                 {"command": "remove_file", "path": "vehicle.Nabe_Kuha58.pak"},
@@ -431,29 +431,29 @@
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/80"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/79"},
                 // 車両-鉄道-国鉄/JR-電車-通勤型
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_103.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_103_s.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_103_seto.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_103_u.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_105_mino.pak"},
-                // { "command": "remove_file", "path": "vehicle.yoshi_201.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_201_k.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_201_s.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_203.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_103.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_103_s.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_103_seto.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_103_u.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_105_mino.pak"},
+                { "command": "remove_file", "path": "vehicle.yoshi_201.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_201_k.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_201_s.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_203.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_205.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_205_keyo_yate.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_205_s.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
-                // {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
                 {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/04/205set.zip"},
                 // 車両-鉄道-国鉄/JR-電車-近郊型
                 {"command": "remove_file", "path": "vehicle.yoshi_113.pak"},
