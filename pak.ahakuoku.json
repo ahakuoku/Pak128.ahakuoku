@@ -471,7 +471,14 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=EC183.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=EC485early.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=SKS_JNR_485_late%20ver.1.12.zip"},
-                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=EC583.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=EC583.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "EC583/拡張セットはこちら/OBK_EC583.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "EC583/おまけはこちら/OBK_EC419.pak", "destination": "" }
+                    ]
+                },
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=JRW485_A06.zip"},
                 // 車両-鉄道-国鉄/JR-電車-新幹線
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/20/shinkansen_0_2021"},
