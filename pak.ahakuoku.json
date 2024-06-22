@@ -72,8 +72,8 @@
                 {"command": "remove_file", "path": "tree.tree132.pak"},
                 {"command": "remove_file", "path": "tree.tree133.pak"},
                 {"command": "remove_file", "path": "tree.tree140.pak"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/60/softshadow-generic-trees/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/128na/%E3%83%99%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%A4%89%E6%9B%B4%E3%82%BB%E3%83%83%E3%83%88/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/60/softshadow-generic-trees"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/128na/%E3%83%99%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%A4%89%E6%9B%B4%E3%82%BB%E3%83%83%E3%83%88"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/chihyou-v1.zip"},
                 // 建物-役場
                 {"command": "remove_file", "path": "building.01_CITY.pak"},
@@ -164,16 +164,16 @@
                         {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_08.pak", "destination": "" }
                     ]
                 },
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/3dbuildingv2-exp-shi/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/pak128-japanese-combuilding-ver2/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/japanese-mansion-set-shi/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/sks_voxel_building/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/3dbuildingv2-exp-shi"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/pak128-japanese-combuilding-ver2"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/japanese-mansion-set-shi"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/sks_voxel_building"},
                 {"command": "extract_all_pak_files", "url": "https://github.com/kasu-me/Simutrans-3d-Buildings-Roadside/archive/refs/tags/v.1.1.0.zip"},
                 {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/11/Cho-Rapid_3D_building_2022-11-4.zip"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/pak128-japanese-supermarket-ver1/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/pachinko-pak128-shi/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/pak128-japanese-supermarket-ver1"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/pachinko-pak128-shi"},
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_765prolivetheater.zip"},
-                {"command": "copy_file", "source_path": "https://simutrans-portal.128-bit.net/users/59/mk_bldg_1_128/download", "destination": "" },
+                {"command": "copy_file", "source_path": "https://simutrans-portal.128-bit.net/users/59/mk_bldg_1_128", "destination": "" },
 
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_bldg.zip"},
                 {"command": "extract_all_pak_files", "url": "http://wikiwiki.jp/twitrans/?plugin=attach&pcmd=open&file=keishicho.zip&refer=addon%2Fpak128%2Fbuilding4"},
@@ -301,7 +301,7 @@
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/95"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
-                    "url": "https://simutrans-portal.128-bit.net/users/87/%E5%9B%BD%E9%89%84de10%E5%BD%A2%E6%A9%9F%E9%96%A2%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88/download",
+                    "url": "https://simutrans-portal.128-bit.net/users/87/%E5%9B%BD%E9%89%84de10%E5%BD%A2%E6%A9%9F%E9%96%A2%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88",
                     "operations": [
                         {"command": "copy_file", "source_path": "SKS_DE10 ver.1/SKS_JNR_DE10_0.pak", "destination": "" },
                         {"command": "copy_file", "source_path": "SKS_DE10 ver.1/SKS_JNR_DE10_1000.pak", "destination": "" }
@@ -332,7 +332,7 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC14_24.zip"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
-                    "url": "https://simutrans-portal.128-bit.net/users/87/sks_pc10_seat/download",
+                    "url": "https://simutrans-portal.128-bit.net/users/87/sks_pc10_seat",
                     "operations": [
                         {"command": "copy_file", "source_path": "SKS_JNR_PC10　ver.1.1/SKS_JNR_PC10.pak", "destination": "" }
                     ]
@@ -356,7 +356,7 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC10_plus.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=JGR_WoodenPC.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=JNR_OldPC.zip"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/%E5%9B%BD%E9%89%84%E6%97%A7%E5%9E%8B%E5%92%8C%E5%BC%8F%E5%AE%A2%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/%E5%9B%BD%E9%89%84%E6%97%A7%E5%9E%8B%E5%92%8C%E5%BC%8F%E5%AE%A2%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/76"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/78"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=NimotsuPC2.zip"},
@@ -398,7 +398,7 @@
                 {"command": "remove_file", "path": "vehicle.yoshi_waki050000.pak"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
-                    "url": "https://simutrans-portal.128-bit.net/users/87/%E5%9B%BD%E9%89%84%E3%82%B3%E3%83%A01%E5%BD%A2%E8%B2%A8%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88/download",
+                    "url": "https://simutrans-portal.128-bit.net/users/87/%E5%9B%BD%E9%89%84%E3%82%B3%E3%83%A01%E5%BD%A2%E8%B2%A8%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88",
                     "operations": [
                         {"command": "copy_file", "source_path": "SKS_Komu1 ver.1/SKS_JR_komu1.pak", "destination": "" }
                     ]
@@ -416,7 +416,7 @@
                 {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train17/::attach/taki1000.zip?rev=f673e4bdbeb11720978f007b03a8ef26&t=20160427105712"},
                 // 車両-鉄道-国鉄/JR-電車/気動車複合
                 // 車両-鉄道-国鉄/JR-電車-複合
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/39/%E5%9B%BD%E9%89%84%E6%96%B0%E6%80%A7%E8%83%BD%E9%9B%BB%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/39/%E5%9B%BD%E9%89%84%E6%96%B0%E6%80%A7%E8%83%BD%E9%9B%BB%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88"},
                 // 車両-鉄道-国鉄/JR-電車-旧型
                 {"command": "remove_file", "path": "vehicle.Nabe_Deha6280.pak"},
                 {"command": "remove_file", "path": "vehicle.Nabe_Kuha58.pak"},
@@ -474,9 +474,9 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=EC583.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=JRW485_A06.zip"},
                 // 車両-鉄道-国鉄/JR-電車-新幹線
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/20/shinkansen_0_2021/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/20/shinkansen_0_2021"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTrain%201&openfile=JNR_Super_Express_100.zip"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/108/jnr200/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/108/jnr200"},
                 // 車両-鉄道-国鉄/JR-気動車-複合
                 // 車両-鉄道-国鉄/JR-気動車-一般/急行型
                 // 車両-鉄道-国鉄/JR-気動車-特急型
@@ -508,7 +508,7 @@
                 // インフラ-ナロー
                 // インフラ-道路
                 // インフラ-船舶
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/sks_port/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/sks_port"},
                 // インフラ-航空
                 // 景観物-箱積み
                 // 景観物-その他
