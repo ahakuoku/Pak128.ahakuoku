@@ -69,8 +69,8 @@
                 {"command": "remove_file", "path": "tree.tree132.pak"},
                 {"command": "remove_file", "path": "tree.tree133.pak"},
                 {"command": "remove_file", "path": "tree.tree140.pak"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/330/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/14/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/60/softshadow-generic-trees"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/128na/%E3%83%99%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%A4%89%E6%9B%B4%E3%82%BB%E3%83%83%E3%83%88"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/chihyou-v1.zip"},
                 {"command": "remove_file", "path": "building.01_CITY.pak"},
                 {"command": "remove_file", "path": "building.06_CITY.pak"},
@@ -158,16 +158,16 @@
                         {"command": "copy_file", "source_path": "3Dbuilding_V2/pak/128/building.3DBuildingV2_08.pak", "destination": "" }
                     ]
                 },
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1358/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1350/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1204/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1373/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/3dbuildingv2-exp-shi"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/pak128-japanese-combuilding-ver2"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/japanese-mansion-set-shi"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/sks_voxel_building"},
                 {"command": "extract_all_pak_files", "url": "https://github.com/kasu-me/Simutrans-3d-Buildings-Roadside/archive/refs/tags/v.1.1.0.zip"},
                 {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/11/Cho-Rapid_3D_building_2022-11-4.zip"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1231/download"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1010/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/pak128-japanese-supermarket-ver1"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/pachinko-pak128-shi"},
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_765prolivetheater.zip"},
-                {"command": "copy_file", "source_path": "https://simutrans-portal.128-bit.net/articles/840/download", "destination": "" },
+                {"command": "copy_file", "source_path": "https://simutrans-portal.128-bit.net/users/59/mk_bldg_1_128", "destination": "" },
 
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_bldg.zip"},
                 {"command": "extract_all_pak_files", "url": "http://wikiwiki.jp/twitrans/?plugin=attach&pcmd=open&file=keishicho.zip&refer=addon%2Fpak128%2Fbuilding4"},
@@ -220,9 +220,17 @@
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_sushishop.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/insatsu-koujou.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/gyokyo.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "http://gobanboshi.s25.xrea.com/simutrans/daiei.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "ダイエー/+陶磁器産業版/factory.supermarket.pak", "destination": "" }
+                    ]
+                },
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/senju-hatsuden.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/syuppansya.zip"},
                 {"command": "extract_all_pak_files", "url": "http://gobanboshi.s25.xrea.com/simutrans/bento-factory.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/twitrans_works/download/343"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FOthers&openfile=j_pedestrian_ver3.zip"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
@@ -281,7 +289,7 @@
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/95"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
-                    "url": "https://simutrans-portal.128-bit.net/articles/1216/download",
+                    "url": "https://simutrans-portal.128-bit.net/users/87/%E5%9B%BD%E9%89%84de10%E5%BD%A2%E6%A9%9F%E9%96%A2%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88",
                     "operations": [
                         {"command": "copy_file", "source_path": "SKS_DE10 ver.1/SKS_JNR_DE10_0.pak", "destination": "" },
                         {"command": "copy_file", "source_path": "SKS_DE10 ver.1/SKS_JNR_DE10_1000.pak", "destination": "" }
@@ -311,6 +319,13 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC14_24.zip"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://simutrans-portal.128-bit.net/users/87/sks_pc10_seat",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "SKS_JNR_PC10　ver.1.1/SKS_JNR_PC10.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
                     "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC10_2.zip",
                     "operations": [
                         {"command": "copy_file", "source_path": "PC10/pak/vehicle.JHSDF_ohane12_late_m.pak", "destination": "" },
@@ -328,7 +343,7 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=PC10_plus.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=JGR_WoodenPC.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%D2%BC%D6&openfile=JNR_OldPC.zip"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/967/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/%E5%9B%BD%E9%89%84%E6%97%A7%E5%9E%8B%E5%92%8C%E5%BC%8F%E5%AE%A2%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/76"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/78"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=NimotsuPC2.zip"},
@@ -369,9 +384,9 @@
                 {"command": "remove_file", "path": "vehicle.yoshi_waki050000.pak"},
                 {
                     "command": "custom_operations_with_downloaded_file", 
-                    "url": "https://simutrans-portal.128-bit.net/articles/1185/download",
+                    "url": "https://simutrans-portal.128-bit.net/users/87/%E5%9B%BD%E9%89%84%E3%82%B3%E3%83%A01%E5%BD%A2%E8%B2%A8%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88",
                     "operations": [
-                        {"command": "copy_file", "source_path": "SKS_Komu1 ver.1/SKS_JNR_komu1.pak", "destination": "" }
+                        {"command": "copy_file", "source_path": "SKS_Komu1 ver.1/SKS_JR_komu1.pak", "destination": "" }
                     ]
                 },
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=koki10000.zip"},
@@ -385,6 +400,7 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=senka_v09.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B2%DF%BC%D6&openfile=JNRFCSet.zip"},
                 {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train17/::attach/taki1000.zip?rev=f673e4bdbeb11720978f007b03a8ef26&t=20160427105712"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/39/%E5%9B%BD%E9%89%84%E6%96%B0%E6%80%A7%E8%83%BD%E9%9B%BB%E8%BB%8A%E3%82%BB%E3%83%83%E3%83%88"},
                 {"command": "remove_file", "path": "vehicle.Nabe_Deha6280.pak"},
                 {"command": "remove_file", "path": "vehicle.Nabe_Kuha58.pak"},
                 {"command": "remove_file", "path": "vehicle.Nabe_Kuha6430.pak"},
@@ -397,9 +413,29 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%EC%B7%BF%B9%F1%C5%C5&openfile=JNR_EC40_72.zip"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/80"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/79"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_103.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_103_s.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_103_seto.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_103_u.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_105_mino.pak"},
+                { "command": "remove_file", "path": "vehicle.yoshi_201.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_201_k.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_201_s.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_203.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_205.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_205_keyo_yate.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_205_s.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_101.pak"},
                 {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/04/205set.zip"},
                 {"command": "remove_file", "path": "vehicle.yoshi_113.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_115.pak"},
@@ -414,13 +450,20 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=EC183.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=EC485early.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=SKS_JNR_485_late%20ver.1.12.zip"},
-                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=EC583.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=EC583.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "EC583/拡張セットはこちら/OBK_EC583.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "EC583/おまけはこちら/OBK_EC419.pak", "destination": "" }
+                    ]
+                },
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C6%C3%B5%DE%B7%C1%C5%C5%BC%D6&openfile=JRW485_A06.zip"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1282/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/20/shinkansen_0_2021"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTrain%201&openfile=JNR_Super_Express_100.zip"},
-                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/simutake/download/39"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/108/jnr200"},
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_metro.zip"},
-                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/articles/1257/download"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/sks_port"},
                 {"command": "remove_file", "path": "ground_obj.kumo.pak"}
             ]
         }
