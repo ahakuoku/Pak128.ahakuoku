@@ -437,7 +437,7 @@
                 {"command": "remove_file", "path": "vehicle.yoshi_103_seto.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_103_u.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_105_mino.pak"},
-                { "command": "remove_file", "path": "vehicle.yoshi_201.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_201.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_201_k.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_201_s.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_203.pak"},
@@ -486,7 +486,14 @@
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/108/jnr200"},
                 // 車両-鉄道-国鉄/JR-気動車-複合
                 // 車両-鉄道-国鉄/JR-気動車-一般/急行型
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%A4%C6%B0%BC%D6&openfile=JNR_LocalDC.zip"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/65/kndc35"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/65/jnrkiha20"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/15"},
+                {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train29/::attach/SKS_%E5%9B%BD%E9%89%84%E3%82%AD%E3%83%8F58%E7%B3%BB800%E7%95%AA%E5%8F%B0%E3%82%BB%E3%83%83%E3%83%88.zip?rev=b2c818f05a9ac39fe091f6b212756481&t=20201117172719"},
                 // 車両-鉄道-国鉄/JR-気動車-特急型
+                {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train16/::attach/JNRDC82v2.zip?rev=da70618d0b8f4fa831bd45562cb549a9&t=20150914022909"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/16"},
                 // 車両-鉄道-大手私鉄-東日本
                 // 車両-鉄道-大手私鉄-西日本
                 // 車両-鉄道-地下鉄
