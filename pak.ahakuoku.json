@@ -294,6 +294,13 @@
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/56"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/97"},
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/wilson_simu/download/82"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/Other3/::attach/yokokaru.zip?rev=10c39744958b83c320151d5b678eb647&t=20160609191759",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "yokokaru/OBK_yokokaru_set.pak", "destination": "" }
+                    ]
+                },
                 // 車両-鉄道-国鉄/JR-機関車-ディーゼル
                 {"command": "remove_file", "path": "vehicle.yoshi_dd51_0.pak"},
                 {"command": "remove_file", "path": "vehicle.yoshi_dd51_500.pak"},
@@ -515,7 +522,196 @@
                 // 車両-船舶
                 // 車両-航空
                 // インフラ-複合
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://github.com/128na/sis/archive/refs/heads/master.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_Extradosed/way.SIS_ConcreteBridge_Extradosed_E01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_Extradosed/way.SIS_ConcreteBridge_Extradosed_E02_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_PCRahmen/way.SIS_ConcreteBridge_PCRahmen_E01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_PCRahmen/way.SIS_ConcreteBridge_PCRahmen_E02_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_PCRahmen/way.SIS_ConcreteBridge_PCRahmen_E03_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_Pier/way.SIS_ConcreteBridge_Pier1-E01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_Pier/way.SIS_ConcreteBridge_Pier1-E02_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_Pier/way.SIS_ConcreteBridge_Pier1-E03_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_Pier/way.SIS_ConcreteBridge_Pier2-E01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_Pier/way.SIS_ConcreteBridge_Pier2-E03_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_Pier/way.SIS_ConcreteBridge_Pier2-E04_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Concrete_Bridge_Pier/way.SIS_ConcreteBridge_Pier5-E01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Steel_Bridge_Arch/Axial Tied-Arch/way.SIS_SteelBridge_Arch_E03_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Steel_Bridge_Arch/Axial Tied-Arch/way.SIS_SteelBridge_Arch_E04_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Steel_Bridge_Arch/Axial Tied-Arch/way.SIS_SteelBridge_Arch_E05_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Steel_Bridge_Arch/Axial Tied-Arch/way.SIS_SteelBridge_Arch_E06_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Steel_Bridge_Arch/Nielsen-Lohse/way.SIS_SteelBridge_Arch_E01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Steel_Bridge_Arch/Nielsen-Lohse/way.SIS_SteelBridge_Arch_E02_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Steel_Bridge_Pier/Nielsen-Lohse/way.SIS_SteelBridge_Pier1_E01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Steel_Bridge_Truss/way.SIS_SteelBridge_Truss_E01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/bridge/Steel_Bridge_Truss/way.SIS_SteelBridge_Truss_E02_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/1lane/way.SIS_ExpresWay_1lane_01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/1lane/way.SIS_ExpresWay_1lane_02_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/2lane/way.SIS_ExpressWay_1-1lane_01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/2lane/way.SIS_ExpressWay_1-1lane_02_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/2lane/way.SIS_ExpressWay_1lane_01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/2to2-1/way.SIS_ExpressWay_2t2-1_01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/2to2-1R/way.SIS_ExpressWay_2t2-1R_01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/2to2-2/way.SIS_ExpressWay_2t2-2_01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/3to3-1/way.SIS_ExpressWay_3t3-1_01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/sidewall/way.SIS_ExpressWay_SideWall_01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/sidewall/way.SIS_ExpressWay_SideWall_E02_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Expressway/sidewall/way.SIS_ExpressWay_SideWall_E03_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Local_Street/1-1lane/way.SIS_LocalStreet_1-1lane01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Local_Street/1-1lane/way.SIS_LocalStreet_CityRoad_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Local_Street/2lane/way.SIS_LocalStreet_2lane01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Local_Street/3lane/way.SIS_LocalStreet_3lane01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Local_Street/Cross/way.SIS_LocalStreet_Cross01_ds.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Local_Street/Signal/way.SIS_LocalStreet_Signals_E01.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Local_Street/Signal/way.SIS_LocalStreet_Signals_E03.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "sis-master/road/Local_Street/Signal/way.SIS_LocalStreet_Signals_E04.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://github.com/128na/iss/releases/download/v6.4/release_duplicate_fixed.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_crossing.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_depot_building.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_maglev_tunnel.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_maglev_way-object.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_maglev_way.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_util_bridge.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_road_way-object.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_util_dense_road.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_util_embankment.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_util_pier.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_util_road_misc.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_util_sidewalk.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "release_duplicate_fixed/pak128/iss_water_way.pak", "destination": "" }
+                    ]
+                },
                 // インフラ-鉄道
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/RykSeb/download/14"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/bizennitinomiya1/download/91/keikan_rail_ver1.1.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=pak128jp_kouka130%28120.0%29.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "pak128jp_kouka130(120.0)/way.kouka130.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/bizennitinomiya1/download/148"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=BRailTunnel.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=pak128jp_bridge_hanabusa.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=subway_box2.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=JHSDF_ginza_subway4.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=railway_signal.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=local_station.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=psds_jp.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "psds_jp/psds_jp/for_pak128jp/一括pak/way-object.psds_jp.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "psds_jp/psds_jp/for_pak128jp/一括pak/way-object.psds3rd_jp.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "psds_jp/psds_jp/for_pak128jp/一括pak/way-object.psds2_jp.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=KSN-128jp_platform-set01_v11.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "KSN-128jp_platform-set01_v11/KSN-128jp_platform-set01_merged01.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=KSN-128jp_platform-set01_v12.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "KSN-128jp_platform-set02_v12_source/KSN-128jp_platform-set02_merged01.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "KSN-128jp_platform-set02_v12_source/KSN-128jp_platform-set02_merged02.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=atc.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "atc/roadsign.atc_signal_all.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=JHSDF_kikanku1.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTransportTools&openfile=JHSDF_wooden_depot.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=Platform_City-type.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=Platform_WhiteTile.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "Platform_WhiteTile/building.Platform_WhiteTile.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=Platform_Freight_station_2.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "Platform_Freight_station_2/Platform_Freight_station.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=KSN_oldstyle-cs-building_v10.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=wa-platform-128.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=Platform_Freight_station_2.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "Platform_Freight_station_2/Platform_Freight_station.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=JPN_UG_Platform_set_1of4.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_1of4/building.JPN_UG_Platform_A_1.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_1of4/building.JPN_UG_Platform_A_3.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=JPN_UG_Platform_set_2of4.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_2of4/building.JPN_UG_Platform_B_1.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_2of4/building.JPN_UG_Platform_B_3.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=JPN_UG_Platform_set_3of4.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_3of4/building.JPN_UG_Platform_C_1.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_3of4/building.JPN_UG_Platform_C_3.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=JPN_UG_Platform_set_4of4.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=JPN_UG_Platform_set_Stairs_1of3.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_Stairs_1of3.zip/building.JPN_UG_Platform_F_1.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_Stairs_1of3.zip/building.JPN_UG_Platform_F_4.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_Stairs_1of3.zip/building.JPN_UG_Platform_I_1.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_Stairs_1of3.zip/building.JPN_UG_Platform_J.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=JPN_UG_Platform_set_Stairs_2of3.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_Stairs_2of3.zip/building.JPN_UG_Platform_G_1.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_Stairs_2of3.zip/building.JPN_UG_Platform_G_4.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%202&openfile=JPN_UG_Platform_set_Stairs_3of3.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "JPN_UG_Platform_set_Stairs_3of3/building.JPN_UG_Platform_H_1.pak", "destination": "" }
+                    ]
+                },
                 // インフラ-モノレール
                 // インフラ-リニア
                 // インフラ-市電
