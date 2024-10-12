@@ -712,6 +712,68 @@
                         {"command": "copy_file", "source_path": "JPN_UG_Platform_set_Stairs_3of3/building.JPN_UG_Platform_H_1.pak", "destination": "" }
                     ]
                 },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FHalfSlope%2FRailTools%202&openfile=KSN-128dsnp_RBDT_v20.7z"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FHalfSlope%2FRailTools%202&openfile=KSN-128ds_SimpleOverheadLine_v11.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FHalfSlope%2FRailTools%202&openfile=KSN-128ds_SimpleOverheadLine-02_v11.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FHalfSlope%2FRailTools%202&openfile=KSN-128np_Rail-yard_v11.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FHalfSlope%2FRailTools%202&openfile=KSN-128_Suspension-bridge_v10.zip"},
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FHalfSlope%2FRailTools%202&openfile=KSN-128_Cable-stayed-bridge_v12.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FHalfSlope%2FRailTools%201&openfile=KSN-128ds_separated-overheadline_set01_v12.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "KSN-128ds_separated-overheadline_set01_merged01.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FHalfSlope%2FRailTools%201&openfile=KSN-128ds_separated-overheadline_set02_v11.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "KSN-128ds_separated-overheadline_set02_merged01.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128%2FRailTools%201&openfile=Jp_signal_128_ver2.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://ux.getuploader.com/simutake/download/63",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "鉄道信号拡張セット/roadsign.track_min_speed.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "鉄道信号拡張セット/roadsign.Jp_end_of_choose_singleway.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/simutake/download/119"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://ux.getuploader.com/simutake/download/126",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "【新描画位置】wa様式ホーム_斜めタイル停留所対応セット/building.wa-platform-diagonal-set.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://ux.getuploader.com/simutake/download/104",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "【新描画位置】wa様式ホーム_斜めタイル停留所拡張セット/building.wa-platform-diagonal-ex.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/simutake/download/97"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://ux.getuploader.com/simutake/download/120",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "斜めタイル停留所対応_屋根なし跨線橋セット_v1.1/pak【新描画位置】/footbridge_station_center.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "斜めタイル停留所対応_屋根なし跨線橋セット_v1.1/pak【新描画位置】/footbridge_station_diagonal_re.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "斜めタイル停留所対応_屋根なし跨線橋セット_v1.1/pak【新描画位置】/footbridge_way_diagonal.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://ux.getuploader.com/simutake/download/133",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "半屋根wa様式ホーム_v1.1/【OTRPv33_1以降専用_新描画位置】斜め対応半屋根ホーム/building.wa-platform-c-diagonal.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/simutake/download/32"},
                 // インフラ-モノレール
                 // インフラ-リニア
                 // インフラ-市電
