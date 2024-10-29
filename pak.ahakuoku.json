@@ -471,7 +471,7 @@
                         {"command": "copy_file", "source_path": "JRE205_209_E231hachiko/E231系3000番台/vehicle.wilson_TcE231-3000(1).pak", "destination": "" },
                         {"command": "copy_file", "source_path": "JRE205_209_E231hachiko/E231系3000番台/vehicle.wilson_TcE230-3000(4).pak", "destination": "" },
                         {"command": "copy_file", "source_path": "JRE205_209_E231hachiko/E231系3000番台/vehicle.wilson_ME231-3000(2).pak", "destination": "" },
-                        {"command": "copy_file", "source_path": "JRE205_209_E231hachiko/E231系3000番台/vehicle.wilson_ME230-3000(3).pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "JRE205_209_E231hachiko/E231系3000番台/vehicle.wilson_ME230-3000(3).pak", "destination": "" }
                     ]
                 },
                 {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/kw_simutrans/download/66"},
