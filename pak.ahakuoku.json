@@ -519,8 +519,7 @@
                     ]
                 },
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_E257odorikoset.zip"},
-                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/rapit_simutrans/download/88"}
-
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/rapit_simutrans/download/88"},
                 // 車両-鉄道-国鉄/JR-電車-新幹線
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/20/shinkansen_0_2021"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2FTrain%201&openfile=JNR_Super_Express_100.zip"},
