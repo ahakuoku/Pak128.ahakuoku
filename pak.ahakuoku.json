@@ -925,6 +925,9 @@
                         {"command": "copy_file", "source_path": "Yokubari_roads_set_ver_anoKTOK-main/128standard/pakset/SIS_ExpressWay_1-1lane_01_ds.pak", "destination": "" }
                     ]
                 },
+                {"command": "extract_all_pak_files", "url": "https://www.dropbox.com/scl/fi/gc0mklgg357m99syjx4hx/SIS_LocalStreet_CityRoad_Elevated_ds.zip?rlkey=v9qodenyp2760nmqyuet4dubb&e=0&dl=1"},
+                {"command": "extract_all_pak_files", "url": "https://www.dropbox.com/scl/fi/9cf174yyi3khdgxskcxje/SIS-Box-tunnel.zip?rlkey=i2xikuvzps58w6xebw2bz9gpi&e=1&dl=1"},
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2020/12/69a85d0656e214bd1ee75d168b6df929.zip"},
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/sks_port"},
                 {"command": "remove_file", "path": "ground_obj.kumo.pak"}
             ]
