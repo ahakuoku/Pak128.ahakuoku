@@ -608,6 +608,12 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%BF%B7%B4%B4%C0%FE&openfile=shinkansen_tokai.zip"},
                 // 車両-鉄道-国鉄/JR-気動車-複合
                 // 車両-鉄道-国鉄/JR-気動車-一般/急行型
+                {"command": "remove_file", "path": "vehicle.yoshi_kiha10.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_kiha10_k.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_kiha20.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_kiha35.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_kiha58.pak"},
+                {"command": "remove_file", "path": "vehicle.yoshi_kiha120.pak"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?=attach&refer=Addon128Japan%2F%B5%A4%C6%B0%BC%D6&openfile=JNR_LocalDC.zip"},
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/6plugin5/kndc35"},
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/65/jnrkiha20"},
