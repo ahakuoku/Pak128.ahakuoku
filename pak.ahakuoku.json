@@ -976,6 +976,9 @@
                         {"command": "copy_file", "source_path": "Yokubari_roads_set_ver_anoKTOK-main/128standard/pakset/SIS_ExpressWay_1-1lane_01_ds.pak", "destination": "" }
                     ]
                 },
+                {"command": "extract_all_pak_files", "url": "https://uc74e4cf56be34d15525379a3fd5.dl.dropboxusercontent.com/cd/0/get/CdjBTTifF_-63zxc_-JJ-FpVos9mVmGObXr0t3MrxASW5qhD5hlOVQG5t4U4skujZVhVoNLACvAt6ePODd5Umdez2JW1L_qs5wHxmx0hOn8COauCuMW-M-ZiFngYzpugdRkEw-3Am-ZFbaT8g0UCFdmPsw76iTbb5eh9Sosy1MeceGcU0Qk_BLWLiqUBP9elpNE/file?_download_id=823731529423142232669227788383326811640060750385103145248648199117&_log_download_success=1&_notify_domain=www.dropbox.com&dl=1"},
+                {"command": "extract_all_pak_files", "url": "https://ucf0123ae82ac2a90ae8dff9810f.dl.dropboxusercontent.com/cd/0/get/Cdg4KKlZAtpTB8NWYq4fSy3VAfxfSFWebPZIiqAWj2kuMfeCzwlnPtXXgjH2RRFy2FzbFyBwr41_ljTF1A9urX_i1iZIzxc8kkct-5Q5AAMB9sqG9rDeUInZjQ48P6heWy7mXph7Rn0gjWH2EYSdymtMK9bHIQ9j9e3MTIcCkq9_EyD7OFqAmWmBnaf8agO9CRE/file?_download_id=96244211116840160085552249037026440992696426602667611658163871466&_log_download_success=1&_notify_domain=www.dropbox.com&dl=1"},
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2020/12/69a85d0656e214bd1ee75d168b6df929.zip"},
                 // インフラ-船舶
                 {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/87/sks_port"},
                 // インフラ-航空
