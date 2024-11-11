@@ -630,8 +630,78 @@
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%A4%C6%B0%BC%D6&openfile=DC187_189.zip"},
                 {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%B5%A4%C6%B0%BC%D6&openfile=MIZUKAZE.zip"},
                 {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train13/::attach/JRS2000set.zip?rev=4302b85950d3eb366dfc0641f2de79f3&t=20150714212137"},
-                {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train29/::attach/JRS_2600_2700.zip?rev=4b2c053f369bdd5a73fb318afce9a095&t=20210214115838"},               
+                {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train29/::attach/JRS_2600_2700.zip?rev=4b2c053f369bdd5a73fb318afce9a095&t=20210214115838"},
                 // 車両-鉄道-大手私鉄-東日本
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2024/02/Ahozura_keikyu_plus.zip"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/pak128.japan/train21/::attach/tokyu8500.zip?rev=b1d912090d6904b0c7243efa7fbdb9a1&t=20160213233019",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "tokyu8500/vehicle.itasha_tokyu8500(since2002).pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "tokyu8500/vehicle.itasha_tokyu8500(since1975).pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "tokyu8500/vehicle.itasha_tokyu8500(RedBelt).pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "tokyu8500/vehicle.itasha_tokyu8500(OM).pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "tokyu8500/vehicle.itasha_tokyu8500(Izu).pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "tokyu8500/vehicle.itasha_tokyu8500(BlueBelt).pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2023/02/Cho-Rapid_TKK_8090.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2022/04/TKKset.zip"},
+                {"command": "extract_all_pak_files", "url": "https://github.com/kasu-me/Simutrans-Pak128Japan-MK-Keio/releases/download/v.1.0.2/mk_keio.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/htrSimu/download/183"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/htrSimu/download/192"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/htrSimu/download/191"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://simutrans-portal.128-bit.net/users/65/keio1",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "keio1/keio1.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://simutrans-portal.128-bit.net/users/65/keioivory",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "keio2000_2010/keio2000_2010.pak", "destination": "" }
+                    ]
+                },
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://ux.getuploader.com/423local/download/37",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "Teito_100/teito_100.pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/%E4%BA%AC%E7%8E%8B%E9%9B%BB%E9%89%846000%E7%B3%BB%E3%82%BB%E3%83%83%E3%83%88"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/%E4%BA%AC%E7%8E%8B2700%E3%83%BB2000%E3%83%BB2010%E7%B3%BB%E3%82%BB%E3%83%83%E3%83%88-pak128japan"},
+                {"command": "extract_all_pak_files", "url": "https://github.com/kasu-me/Simutrans-Pak128Japan-MK-Keio/releases/download/v.1.0.2/mk_keio.zip"},
+                {"command": "extract_all_pak_files", "url": "https://github.com/kasu-me/Simutrans-Pak128Japan-MK-Seibu-Complete/releases/download/v1.1.0.2/mk_seibu_complete.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/Greentomato/download/1"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/twitrans_works/download/347"},
+                {"command": "extract_all_pak_files", "url": "https://drive.google.com/uc?export=download&id=158JcqheIaeQK4opVpBQBz29a3stSYqDf"},
+                {"command": "extract_all_pak_files", "url": "https://drive.google.com/uc?export=download&id=1cOkCRPbuz0gYIBvGSqhI_tPqwKZEw85R"},
+                {"command": "extract_all_pak_files", "url": "http://ux.getuploader.com/SimutransAddon/download/12/TOBU_CS_SET_Vol.1.zip"},
+                {"command": "extract_all_pak_files", "url": "https://www.dropbox.com/scl/fi/hniisbypheauh957b557t/TOBU_SUS_SET_1.1.zip?rlkey=u137gboeqcvv2z00flcpcv4wn&e=3&dl=1"},
+                {"command": "extract_all_pak_files", "url": "https://www.dropbox.com/scl/fi/58d68yk8xdjgc0jr31ro2/TOBU_AL_SET.zip?rlkey=j1it3v5yebtg1hfjx12tgfaie&e=1&dl=1"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/htrSimu/download/170"},
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2023/02/Gal_tobu_N100-1.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2021/09/vehicle.Gal_tobu500.zip"},
+                {"command": "extract_all_pak_files", "url": "https://cdn.wikiwiki.jp/to/w/twitrans/addon/Other/train1/::attach/Tobu_200.zip?rev=0df39b323cdc5a38a2e98c7d743c6512&t=20131006121356"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/rapit_simutrans/download/33"},
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2023/04/Cho-Rapid_Keisei_3000.zip"},
+                {"command": "extract_all_pak_files", "url": "https://ahozura.kasu.me/portal/wp-content/uploads/2024/03/Cho-Rapid_Keisei_3600.zip"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/54/%E4%BA%AC%E6%88%903100%E5%BD%A2-2%E4%BB%A3%E7%9B%AE-%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3-pak128japan"},
+                {"command": "extract_all_pak_files", "url": "https://ux.getuploader.com/rapit_simutrans/download/85"},
+                {
+                    "command": "custom_operations_with_downloaded_file", 
+                    "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C2%E7%BC%EA%BB%E4%C5%B4&openfile=pak128jp_keisei_AE_%282nd%29_2.zip",
+                    "operations": [
+                        {"command": "copy_file", "source_path": "pak128jp_keisei_AE_(2nd)_2/vehicle.Hanabusa_keisei_AE100.pak", "destination": "" },
+                        {"command": "copy_file", "source_path": "pak128jp_keisei_AE_(2nd)_2/vehicle.Hanabusa_keisei_AE_(2nd).pak", "destination": "" }
+                    ]
+                },
+                {"command": "extract_all_pak_files", "url": "https://japanese.simutrans.com/index.php?plugin=attach&refer=Addon128Japan%2F%C2%E7%BC%EA%BB%E4%C5%B4&openfile=JHSDF_Sotetsu_cars_3.zip"},
+                {"command": "extract_all_pak_files", "url": "https://simutrans-portal.128-bit.net/users/96/futamatagawa-so10"},
                 // 車両-鉄道-大手私鉄-西日本
                 // 車両-鉄道-地下鉄
                 {"command": "extract_all_pak_files", "url": "https://atelier.kasu.me/simutrans/mk_metro.zip"},
